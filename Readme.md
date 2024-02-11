@@ -1,4 +1,4 @@
-# Java-para-nuevos-programadores
+# Go-para-nuevos-programadores
 
 Los ejemplos y explicaciones que verás en este repositorio tienen el fin de ayudar a entender mejor los conceptos de la programación a personas que nunca ha programado en algún lenguaje.
 
