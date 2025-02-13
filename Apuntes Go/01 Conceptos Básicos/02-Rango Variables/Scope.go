@@ -7,9 +7,9 @@ var variable1 = "Soy una variable de nivel 1."
 func main() {
 
 	variable2 := "Soy una variable de nivel 2."
-	condicion := true
 
-	if condicion { //Condicion para que siempre entre.
+	// Con las { } generamos un scope.
+	{
 		variable3 := "Soy una variable de tipo 3."
 		fmt.Println(&variable1)
 		fmt.Println(&variable2)
@@ -27,5 +27,5 @@ func main() {
 	si no se usan otras funcionalidades que veremos más adelante.
 
 	Por ejemplo el Scope de la variable2 sería  todo lo que esté dentro de las llaves ({}) del main, si se intentara usar fuera de su entorno nos daría un error,
-	como nos pasa con la variable3. Si se intenta usar la variable3 fuera de las llaves del if, donde está definida, nos salta error.
+	como nos pasa con la variable3. Si se intenta usar la variable3 fuera del scope que hemos definido, donde está definida la variable, nos salta error.
 */
